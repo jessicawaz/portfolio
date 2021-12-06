@@ -6,10 +6,7 @@
 }
 
 .stack-icons {
-    -webkit-column-width: 3 150px;
-    -moz-column-width: 3 150px;
-    column-width: 3 150px;
-    
+    padding-right: 35px;
 }
 
 .icon {
@@ -26,5 +23,9 @@
     .icon {
         font-size: 60px;
         width: 100%;
+    }
+
+    .stack-icons {
+        padding-right: 0px;
     }
   }
