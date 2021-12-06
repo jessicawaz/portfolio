@@ -1,0 +1,22 @@
+.home {
+    display: flex;
+    height: 100vh;
+    background-color: #333533;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-name {
+    color: #E8EDDF;
+}
+
+.home-desc {
+    color: #cfdbd5;
+}
+
+.home-pointer {
+    position: absolute;
+    bottom: 70px;
+    color: #cfdbd5;
+    font-size: 30px;
+}

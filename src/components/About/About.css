@@ -1,0 +1,30 @@
+.about {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+}
+
+.stack-icons {
+    -webkit-column-width: 3 150px;
+    -moz-column-width: 3 150px;
+    column-width: 3 150px;
+    
+}
+
+.icon {
+    font-size: 60px;
+    padding-right: 100px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .about-col {
+      width: 100%;
+    }
+
+    .icon {
+        font-size: 60px;
+        width: 100%;
+    }
+  }
