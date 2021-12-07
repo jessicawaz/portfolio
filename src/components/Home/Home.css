@@ -20,3 +20,9 @@
     color: #cfdbd5;
     font-size: 30px;
 }
+
+@media screen and (max-width: 600px) {
+    .home {
+      width: 100%;
+    }
+  }
