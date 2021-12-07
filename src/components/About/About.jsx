@@ -4,15 +4,11 @@ import "./About.css";
 const About = () => {
   return (
     <div className="about">
-      <div className="about-col">
+      <div>
         <h1>About Me.</h1>
-        <p>
-          I am currently a senior Software Engineering student at Florida Gulf
-          Coast University. After being introduced to the various programming
-          fields, I realized I have a passion for web development.
-        </p>
+        <p>Text</p>
       </div>
-      <div className="about-col">
+      <div>
         <h1>Stack.</h1>
         <div className="stack-icons">
           <i class="fab fa-node icon"></i>
