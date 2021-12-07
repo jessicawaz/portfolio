@@ -1,0 +1,15 @@
+.contact-container {
+    max-width: 1000px;
+    padding: 3em;
+    margin: 200px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .contact-container {
+        margin: 300px auto;
+    }
+  }
