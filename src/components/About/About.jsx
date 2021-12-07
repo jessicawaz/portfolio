@@ -8,9 +8,10 @@ const About = () => {
         <h1>About Me.</h1>
         <p>Text</p>
       </div>
+
       <div>
         <h1>Stack.</h1>
-        <div className="stack-icons">
+        <div>
           <i class="fab fa-node icon"></i>
           <i class="fab fa-js-square icon"></i>
           <img

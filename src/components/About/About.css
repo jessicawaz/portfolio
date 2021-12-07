@@ -2,17 +2,17 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    padding: 3em;
     line-height: 30px;
 }
 
-.stack-icons {
-    padding-right: 35px;
-}
 
 .icon {
     font-size: 60px;
     padding-right: 100px;
+}
+
+.firebase {
+    margin-top: -30px;
 }
 
 
@@ -24,9 +24,11 @@
     .icon {
         font-size: 60px;
         width: 100%;
+        padding: 0;
     }
 
-    .stack-icons {
-        padding-right: 0px;
+    .firebase {
+        margin: 10px;
     }
+
   }
