@@ -11,7 +11,12 @@ const Projects = () => {
             <div class="card-body">
               <h5 class="card-title">Inventory Tracker</h5>
               <p class="card-text">Inventory app built with the MERN stack.</p>
-              <a href="#" class="btn btn-primary">
+              <a
+                href="https://github.com/jessicawaz/Inventory-App"
+                rel="noreferrer"
+                class="btn btn-primary"
+                target="_blank"
+              >
                 Source Code
               </a>
             </div>
@@ -23,7 +28,12 @@ const Projects = () => {
             <div class="card-body">
               <h5 class="card-title">This Portfolio</h5>
               <p class="card-text">Portfolio built with React.</p>
-              <a href="#" class="btn btn-primary">
+              <a
+                href="https://github.com/jessicawaz/portfolio"
+                rel="noreferrer"
+                class="btn btn-primary"
+                target="_blank"
+              >
                 Source Code
               </a>
             </div>
@@ -38,7 +48,7 @@ const Projects = () => {
               <h5 class="card-title">Requirements Engineering</h5>
               <p class="card-text">Created an SRS with Jira/Confluence.</p>
               <a href="#" class="btn btn-primary">
-                View Documents
+                View Document
               </a>
             </div>
           </div>

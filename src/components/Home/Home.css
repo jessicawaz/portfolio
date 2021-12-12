@@ -2,8 +2,10 @@
     display: flex;
     height: 100vh;
     background-color: #333533;
+    text-align: center;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
 }
 
 .home-name {
@@ -14,11 +16,22 @@
     color: #cfdbd5;
 }
 
-.home-pointer {
-    position: absolute;
-    bottom: 70px;
+.icons {
     color: #cfdbd5;
     font-size: 30px;
+}
+
+.home-pointer:hover, .icons:hover {
+    color: #f5cb5c;
+    transition: .5s;
+}
+
+.home-pointer {
+    position: absolute;
+    bottom: 10%;
+    font-size: 30px;
+    color: #cfdbd5;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {

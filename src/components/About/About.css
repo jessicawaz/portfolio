@@ -8,12 +8,12 @@
 
 .icon {
     font-size: 60px;
-    padding-right: 100px;
+    /* padding-right: 100px; */
 }
 
-.firebase {
+/* .firebase {
     margin-top: -30px;
-}
+} */
 
 
 @media screen and (max-width: 600px) {
