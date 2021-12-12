@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className="contact-container">
       <h1>Contact Me.</h1>
-      <form>
+      <form action="https://formsubmit.co/jesswaz24@gmail.com" method="POST">
         <div class="row">
           <div class="col-md-6">
             <div class="form-group">
@@ -14,6 +14,7 @@ const Contact = () => {
                 type="text"
                 class="form-control"
                 id="name"
+                name="name"
                 placeholder="Name..."
               />
             </div>
@@ -26,6 +27,7 @@ const Contact = () => {
                 type="email"
                 class="form-control"
                 id="email"
+                name="email"
                 placeholder="Email..."
               />
             </div>
@@ -39,6 +41,7 @@ const Contact = () => {
               <textarea
                 class="form-control"
                 id="message"
+                name="message"
                 rows="3"
                 placeholder="Message..."
               ></textarea>
@@ -51,6 +54,7 @@ const Contact = () => {
             Send Message
           </button>
         </div>
+        <input type="hidden" name="_captcha" value="false"></input>
       </form>
     </div>
   );
