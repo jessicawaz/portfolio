@@ -5,27 +5,12 @@
     text-align: center;
 }
 
-.projects-row {
-    margin: 8px -16px;
+.card {
+    padding: 10px;
 }
 
-.project-column {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    float: left;
-    width: 50%;
-}
-
-.project-column:hover {
-    background-color: lightgray;
-}
-
-.card-item {
-    padding: 40px;
-}
-
-a {
-    color: #000;
+.row {
+    padding: 10px;
 }
 
 @media screen and (max-width: 600px) {

@@ -1,7 +1,7 @@
 .contact-container {
     max-width: 1000px;
     padding: 3em;
-    margin: 200px auto;
+    margin: auto;
 }
 
 h1 {
@@ -10,6 +10,6 @@ h1 {
 
 @media screen and (max-width: 600px) {
     .contact-container {
-        margin: 300px auto;
+        margin: auto;
     }
   }
