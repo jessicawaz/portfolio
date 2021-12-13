@@ -32,6 +32,17 @@ const Home = () => {
               </a>
               <p>GitHub</p>
             </div>
+
+            <div className="col">
+              <a
+                href="https://drive.google.com/file/d/1yfFzDn4Jh6OmfBxNX0xbDB3WKqUb0tEu/view?usp=sharing"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <i class="fas fa-file icons"></i>
+              </a>
+              <p>Resume</p>
+            </div>
           </div>
         </div>
       </div>
