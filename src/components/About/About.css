@@ -3,22 +3,27 @@
     justify-content: center;
     align-items: center;
     line-height: 30px;
+    margin-top: 30px;
+}
+
+.about p {
+    margin: 20px 20%;
+    color: #000;
+    font-size: 15px;
 }
 
 
 .icon {
     font-size: 60px;
-    /* padding-right: 100px; */
 }
-
-/* .firebase {
-    margin-top: -30px;
-} */
-
 
 @media screen and (max-width: 600px) {
     .about-col {
       width: 100%;
+    }
+
+    .about p {
+        margin: 20px 10px;
     }
 
     .icon {

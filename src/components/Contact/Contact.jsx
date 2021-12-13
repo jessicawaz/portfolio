@@ -5,8 +5,12 @@ const Contact = () => {
   return (
     <div className="contact-container">
       <h1>Contact Me.</h1>
-      <form action="https://formsubmit.co/jesswaz24@gmail.com" method="POST">
-        <div class="row">
+      <form
+        // class="form"
+        action="https://formsubmit.co/jesswaz24@gmail.com"
+        method="POST"
+      >
+        <div class="row form">
           <div class="col-md-6">
             <div class="form-group">
               <label for="name">Your Name</label>
@@ -16,6 +20,7 @@ const Contact = () => {
                 id="name"
                 name="name"
                 placeholder="Name..."
+                required
               />
             </div>
           </div>
@@ -29,12 +34,13 @@ const Contact = () => {
                 id="email"
                 name="email"
                 placeholder="Email..."
+                required
               />
             </div>
           </div>
         </div>
 
-        <div class="row">
+        <div class="row form">
           <div class="col-md-6 mx-auto">
             <div class="form-group">
               <label for="message">Your Message</label>
@@ -44,17 +50,23 @@ const Contact = () => {
                 name="message"
                 rows="3"
                 placeholder="Message..."
+                required
               ></textarea>
             </div>
           </div>
         </div>
 
-        <div class="row">
+        <div class="row form">
           <button type="submit" className="btn btn-primary mx-auto">
             Send Message
           </button>
         </div>
         <input type="hidden" name="_captcha" value="false"></input>
+        <input
+          type="hidden"
+          name="_next"
+          value="https://wazbinski-portfolio.herokuapp.com/"
+        ></input>
       </form>
     </div>
   );

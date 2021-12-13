@@ -19,6 +19,7 @@ const Home = () => {
               >
                 <i class="fab fa-linkedin icons"></i>
               </a>
+              <p>LinkedIn</p>
             </div>
 
             <div className="col">
@@ -29,13 +30,15 @@ const Home = () => {
               >
                 <i class="fab fa-github-square icons"></i>
               </a>
+              <p>GitHub</p>
             </div>
           </div>
         </div>
       </div>
 
       <div className="home-pointer">
-        <Link to="about" smooth={true} offset={-70} duration={500}>
+        <Link to="about" smooth={true} duration={500}>
+          <h6>Read More Below</h6>
           <i class="far fa-hand-point-down"></i>
         </Link>
       </div>

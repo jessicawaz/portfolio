@@ -6,7 +6,11 @@ const About = () => {
     <div className="about" id="about">
       <div>
         <h1>About Me.</h1>
-        <p>Text</p>
+        <p>
+          Hello! I am a Backend Developer with experience writing API's using
+          Node.js and databases such as MongoDB and Firebase. I will be
+          receiving a Bachelor's Degree in Software Engineering in May of 2022.
+        </p>
       </div>
 
       <div>

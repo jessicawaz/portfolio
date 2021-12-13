@@ -1,15 +1,16 @@
+.form {
+    padding-left: 5em;
+    padding-right: 5em; 
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
 .contact-container {
-    max-width: 1000px;
-    padding: 3em;
-    margin: auto;
+    padding-bottom: 3em;
 }
 
 h1 {
     text-align: center;
 }
-
-@media screen and (max-width: 600px) {
-    .contact-container {
-        margin: auto;
-    }
-  }
