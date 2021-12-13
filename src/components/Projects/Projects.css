@@ -13,6 +13,11 @@
     padding: 10px;
 }
 
+.card-text {
+    color: #000;
+    opacity: 90%;
+}
+
 @media screen and (max-width: 600px) {
     .project-column {
       width: 100%;

@@ -27,7 +27,7 @@ const Projects = () => {
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">This Portfolio</h5>
-              <p class="card-text">Portfolio built with React.</p>
+              <p class="card-text">Portfolio built with React and Bootstrap.</p>
               <a
                 href="https://github.com/jessicawaz/portfolio"
                 rel="noreferrer"
@@ -47,7 +47,12 @@ const Projects = () => {
             <div class="card-body">
               <h5 class="card-title">Requirements Engineering</h5>
               <p class="card-text">Created an SRS with Jira/Confluence.</p>
-              <a href="#" class="btn btn-primary">
+              <a
+                href="https://drive.google.com/file/d/1W3j6csIHG0Et9euxf-iRHqQh0JVzsKI3/view?usp=sharing"
+                class="btn btn-primary"
+                target="_blank"
+                rel="noreferrer"
+              >
                 View Document
               </a>
             </div>
