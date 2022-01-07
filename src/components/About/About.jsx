@@ -26,6 +26,11 @@ const About = () => {
             <div className="col">
               <i class="fab fa-js-square icon"></i>
             </div>
+
+            <div className="col">
+              <i class="fab fa-react icon"></i>
+            </div>
+
             <div className="col">
               <img
                 className="firebase"
