@@ -9,7 +9,8 @@ const About = () => {
         <p>
           Hello! I am a Developer with backend experience writing API's using
           Node.js and databases such as MongoDB and Firebase. I also have some
-          experience on the frontend with React and Boostrap. I will be
+          experience on the frontend with React and Boostrap. Currently, I am
+          working on a mobile/web application using Flutter/Dart I will be
           receiving a Bachelor's Degree in Software Engineering in May of 2022.
         </p>
       </div>
@@ -30,6 +31,17 @@ const About = () => {
                 className="firebase"
                 src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpluspng.com%2Fimg-png%2Ffirebase-logo-png-firebase-logo-png-transparent-amp-svg-vector-pluspng-2400x3291.png&f=1&nofb=1"
                 alt="Firebase"
+                width="auto"
+                height="60px"
+                color="black"
+              />
+            </div>
+
+            <div className="col">
+              <img
+                className="flutter"
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1200%2F1*5-aoK8IBmXve5whBQM90GA.png&f=1&nofb=1"
+                alt="Flutter"
                 width="auto"
                 height="60px"
                 color="black"
