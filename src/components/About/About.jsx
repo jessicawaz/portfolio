@@ -7,9 +7,9 @@ const About = () => {
       <div>
         <h1>About Me.</h1>
         <p>
-          Hello! I am a Software Developer with experience writing API's using
-          Node.js and databases such as MongoDB and Firebase. I have experience implementing Application features with Flutter/Dart, as well. I will be
-          receiving a Bachelor's Degree in Software Engineering in May of 2022.
+          Hello! I am a Developer with backend experience writing API's using Node.js and databases such as MongoDB and Firebase. 
+    I also have some experience on the frontend with React and Boostrap. Currently, I am working on a mobile/web application using Flutter/Dart. 
+    I will be receiving a Bachelor's Degree in Software Engineering in May of 2022.
         </p>
       </div>
 
