@@ -24,10 +24,7 @@ const About = () => {
     <div className="col">
              <i class="fa-brands fa-react"></i>
             </div>
-    <div className="col">
-    <i class="fa-brands fa-js"></i>
-    </div>
-
+    
             <div className="col">
               <i class="fab fa-js-square icon"></i>
             </div>
