@@ -45,6 +45,23 @@ const Projects = () => {
         <div class="col-sm-6">
           <div class="card">
             <div class="card-body">
+              <h5 class="card-title">BYO Toast</h5>
+              <p class="card-text">Website built with React and Bulma.</p>
+              <a
+                href="https://github.com/jessicawaz/BYOToast"
+                rel="noreferrer"
+                class="btn btn-primary"
+                target="_blank"
+              >
+                Source Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
               <h5 class="card-title">Requirements Engineering</h5>
               <p class="card-text">Created an SRS with Jira/Confluence.</p>
               <a
