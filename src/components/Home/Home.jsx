@@ -35,7 +35,7 @@ const Home = () => {
 
             <div className="col">
               <a
-                href="https://drive.google.com/file/d/1zjfYfA-b3D6dRyFyPyUbTRk9tF6y0Ego/view"
+                href="https://drive.google.com/file/d/1eRjiQjvQq8oCV97Otwpiwpg5_G7Zx2WC/view?usp=sharing"
                 rel="noreferrer"
                 target="_blank"
               >
