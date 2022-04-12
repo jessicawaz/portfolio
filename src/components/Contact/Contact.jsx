@@ -5,13 +5,9 @@ const Contact = () => {
   return (
     <div className="contact-container">
       <h1>Contact Me.</h1>
-      <form
-        // class="form"
-        action="https://formsubmit.co/jesswaz24@gmail.com"
-        method="POST"
-      >
+      <form action="https://formsubmit.co/jesswaz24@gmail.com" method="POST">
         <div class="row form">
-          <div class="col-md-6">
+          <div class="col-5">
             <div class="form-group">
               <label for="name">Your Name</label>
               <input
@@ -25,7 +21,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div class="col-md-6">
+          <div class="col-5">
             <div class="form-group">
               <label for="email">Your Email</label>
               <input
@@ -65,7 +61,7 @@ const Contact = () => {
         <input
           type="hidden"
           name="_next"
-          value="https://wazbinski-portfolio.herokuapp.com/"
+          value="https://wazbinski-portfolio.netlify.app/"
         ></input>
       </form>
     </div>
