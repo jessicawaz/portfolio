@@ -6,7 +6,8 @@
 }
 
 .card {
-    padding: 10px
+    padding: 25px;
+    height: 200px;
 }
 
 .row {
