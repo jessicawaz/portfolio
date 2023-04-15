@@ -1,7 +1,7 @@
 .home {
     display: flex;
     height: 100vh;
-    background-color: #333533;
+    background-color: #3f3f3f;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -9,17 +9,22 @@
 }
 
 .home-name {
-    color: #E8EDDF;
+    color: #fff;
 }
 
 .home-desc {
-    color: #cfdbd5;
+    color: #fff;
 }
 
 .icons {
-    color: #cfdbd5;
+    color: #8b8a8b;
     font-size: 30px;
     cursor: pointer;
+    margin-top: 50px;
+}
+
+.icon {
+    margin: 0px 25px;
 }
 
 .fa-file {
@@ -33,7 +38,7 @@ p {
 }
 
 .home-pointer:hover, .icons:hover {
-    color: #f5cb5c;
+    color: rgba(255, 0, 0, 0.35);
     transition: .5s;
 }
 

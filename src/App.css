@@ -1,7 +1,8 @@
 body {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto';
     margin: 0;
     padding: 0;
+    background-color: lightgray;
 }
 
 @media screen and (max-width: 600px) {
