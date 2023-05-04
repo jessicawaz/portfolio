@@ -1,0 +1,25 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+
+$theme-colors: (
+  primary: #e1ddb2,
+  secondary: #3f3f3f,
+);
+
+body {
+  font-family: "Julius Sans One";
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+}
+
+@media screen and (max-width: 600px) {
+  .body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@import "bootstrap/scss/bootstrap";
