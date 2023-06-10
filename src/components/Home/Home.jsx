@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button } from "react-bootstrap";
+import { Button, Col, Row } from "react-bootstrap";
 
 import { ReactComponent as Node } from "../../icons/node.svg";
 import { ReactComponent as Next } from "../../icons/next.svg";
@@ -72,35 +72,40 @@ const Home = () => {
         <Button onClick={() => setContactModal(true)}>Lets Chat</Button>
       </div>
 
-      <div className={styles.headerWrapper}>
-        <div className={styles.header}>Jess Wazbinski</div>
-        <div className={styles.subheader}>Software Engineer</div>
+      <Row className={styles.content}>
+        <Col>
+          <div className={styles.headerWrapper}>
+            <div className={styles.header}>Jess Wazbinski</div>
+            <div className={styles.subheader}>Software Engineer</div>
 
-        <div className={styles.stackIconWrapper}>
-          {stackIcons.map(({ icon, title, link }) => (
-            <div key={title} className={styles.icon}>
-              <a target="_blank" href={link}>
-                {icon}
-                <p>{title}</p>
-              </a>
+            <div className={styles.stackIconWrapper}>
+              {stackIcons.map(({ icon, title, link }) => (
+                <div key={title} className={styles.icon}>
+                  <a target="_blank" href={link}>
+                    {icon}
+                    <p>{title}</p>
+                  </a>
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
-      </div>
+          </div>
+        </Col>
+        {contactModal && (
+          <Contact show={contactModal} onHide={() => setContactModal(false)} />
+        )}
 
-      {contactModal && (
-        <Contact show={contactModal} onHide={() => setContactModal(false)} />
-      )}
+        <Col>
+          <div className={styles.scrollWrapper}>
+            <div className={styles.aboutWrapper}></div>
+            <div className={styles.projectsWrapper}>
+              <About />
+              <Projects />
+            </div>
+          </div>
 
-      <div className={styles.scrollWrapper}>
-        <div className={styles.aboutWrapper}></div>
-        <div className={styles.projectsWrapper}>
-          <About />
-          <Projects />
-        </div>
-      </div>
-
-      <div className={styles.scrollText}>Scroll To View More</div>
+          <div className={styles.scrollText}>Scroll To View More</div>
+        </Col>
+      </Row>
     </div>
   );
 };
