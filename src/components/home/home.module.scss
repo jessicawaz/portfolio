@@ -8,6 +8,7 @@
   overflow: none;
   color: #fff;
   position: fixed;
+  padding-bottom: 50px;
 
   @include media-breakpoint-down(md) {
     position: relative;

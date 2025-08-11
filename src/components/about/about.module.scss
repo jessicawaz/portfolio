@@ -3,14 +3,14 @@
 .aboutCard {
   color: #000;
   margin: 20px auto;
-  width: 550px;
+  max-width: 550px;
   text-align: left;
   border: gray 3px solid;
   padding: 20px;
   font-size: 1.1rem;
 
   @include media-breakpoint-down(md) {
-    width: 400px;
+    margin: 20px;
     font-size: 1rem;
     padding: 5px;
   }
