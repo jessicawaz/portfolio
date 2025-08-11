@@ -5,6 +5,8 @@ import { ReactComponent as Node } from "../../icons/node.svg";
 import { ReactComponent as Next } from "../../icons/next.svg";
 import { ReactComponent as Reactjs } from "../../icons/react.svg";
 import { ReactComponent as JavaScript } from "../../icons/js.svg";
+import { ReactComponent as PHP } from "../../icons/php.svg";
+import { ReactComponent as AWS } from "../../icons/aws.svg";
 import { ReactComponent as Linkedin } from "../../icons/linkedin.svg";
 import { ReactComponent as Github } from "../../icons/github.svg";
 import { ReactComponent as File } from "../../icons/file.svg";
@@ -51,6 +53,16 @@ const stackIcons = [
     title: "JavaScript",
     icon: <JavaScript />,
     link: "https://www.javascript.com/",
+  },
+  {
+    title: "PHP",
+    icon: <PHP />,
+    link: "https://www.php.net/",
+  },
+  {
+    title: "AWS",
+    icon: <AWS />,
+    link: "https://aws.amazon.com/",
   },
 ];
 
