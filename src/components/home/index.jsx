@@ -96,7 +96,7 @@ const socialIcons = [
   {
     title: "Resume",
     icon: <File />,
-    link: "https://drive.google.com/file/d/1eRjiQjvQq8oCV97Otwpiwpg5_G7Zx2WC/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1vJYVPDyqNt2hxQweUekBkxCDTYbmCH43/view?usp=drive_link",
   },
 ];
 
