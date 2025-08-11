@@ -1,20 +1,20 @@
 import { useState } from "react";
 import { Button, Col, Row } from "react-bootstrap";
 
-import { ReactComponent as Node } from "icons/node.svg";
-import { ReactComponent as Next } from "icons/next.svg";
-import { ReactComponent as Reactjs } from "icons/react.svg";
-import { ReactComponent as JavaScript } from "icons/js.svg";
-import { ReactComponent as PHP } from "icons/php.svg";
-import { ReactComponent as AWS } from "icons/aws.svg";
-import { ReactComponent as Linkedin } from "icons/linkedin.svg";
-import { ReactComponent as Github } from "icons/github.svg";
-import { ReactComponent as File } from "icons/file.svg";
-import me from "icons/me.png";
-import styles from "components/home/home.module.scss";
-import Contact from "components/contact/index";
-import Projects from "components/projects/index";
-import About from "components/about/index";
+import { ReactComponent as Node } from "src/icons/node.svg";
+import { ReactComponent as Next } from "src/icons/next.svg";
+import { ReactComponent as Reactjs } from "src/icons/react.svg";
+import { ReactComponent as JavaScript } from "src/icons/js.svg";
+import { ReactComponent as PHP } from "src/icons/php.svg";
+import { ReactComponent as AWS } from "src/icons/aws.svg";
+import { ReactComponent as Linkedin } from "src/icons/linkedin.svg";
+import { ReactComponent as Github } from "src/icons/github.svg";
+import { ReactComponent as File } from "src/icons/file.svg";
+import me from "src/icons/me.png";
+import styles from "src/components/home/home.module.scss";
+import Contact from "src/components/contact/index";
+import Projects from "src/components/projects/index";
+import About from "src/components/about/index";
 
 const Home = () => {
   const [contactModal, setContactModal] = useState(false);
@@ -25,7 +25,7 @@ const Home = () => {
         <div className={styles.socialIconWrapper}>
           {socialIcons.map(({ icon, title, link }) => (
             <div key={title} className={styles.icon}>
-              <a target="_blank" href={link}>
+              <a target="_blank" rel="noreferrer" href={link}>
                 {icon}
               </a>
             </div>
@@ -48,7 +48,7 @@ const Home = () => {
                 {stackIcons.map(({ icon, title, link }) => (
                   <Col>
                     <div key={title} className={styles.icon}>
-                      <a target="_blank" href={link}>
+                      <a target="_blank" rel="noreferrer" href={link}>
                         {icon}
                         <p>{title}</p>
                       </a>

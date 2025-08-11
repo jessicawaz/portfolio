@@ -1,8 +1,8 @@
 import { Button, Card } from "react-bootstrap";
 
-import styles from "components/projects/projects.module.scss";
-import toast from "icons/toast.png";
-import me from "icons/meagain.png";
+import styles from "src/components/projects/projects.module.scss";
+import toast from "src/icons/toast.png";
+import me from "src/icons/meagain.png";
 
 const Projects = () => {
   return (

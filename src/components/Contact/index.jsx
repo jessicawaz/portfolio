@@ -1,7 +1,7 @@
 import { Button, Modal, Form } from "react-bootstrap";
 import TextareaAutosize from "react-textarea-autosize";
 
-import styles from "components/contact/contact.module.scss";
+import styles from "src/components/contact/contact.module.scss";
 
 const Contact = ({ show, onHide }) => {
   return (

@@ -1,6 +1,6 @@
 import { Card } from "react-bootstrap";
 
-import styles from "components/about/about.module.scss";
+import styles from "src/components/about/about.module.scss";
 
 const About = () => {
   return (
