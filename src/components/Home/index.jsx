@@ -15,6 +15,7 @@ import styles from "src/components/home/home.module.scss";
 import Contact from "src/components/contact/index";
 import Projects from "src/components/projects/index";
 import About from "src/components/about/index";
+import Testimonials from "src/components/testimonials/index";
 
 const Home = () => {
   const [contactModal, setContactModal] = useState(false);
@@ -66,6 +67,7 @@ const Home = () => {
             <div className={styles.projectsWrapper}>
               <About />
               <Projects />
+              <Testimonials />
             </div>
           </div>
 
