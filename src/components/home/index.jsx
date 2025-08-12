@@ -68,11 +68,15 @@ const Home = () => {
 
         <Col>
           <div className={styles.scrollWrapper}>
-            <div className={styles.aboutWrapper}></div>
-            <div className={styles.projectsWrapper}>
+            <div>
               <About />
               <Projects />
               <Testimonials />
+
+              <div className={styles.privacy}>
+                This site uses Umami Analytics to collect anonymous, aggregated
+                visitor statistics. No cookies, no personal data.
+              </div>
             </div>
           </div>
 
