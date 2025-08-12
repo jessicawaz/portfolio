@@ -1,7 +1,9 @@
 {
-  "functions": {
-    "api/check-umami-views.js": {
-      "schedule": "*/1 * * * *"
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "crons": [
+    {
+      "path": "/api/check-umami-views.js",
+      "schedule": "* * * * *"
     }
-  }
+  ]
 }
