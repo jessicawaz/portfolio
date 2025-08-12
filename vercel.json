@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/check-umami-views.js": {
+      "schedule": "*/1 * * * *"
+    }
+  }
+}
