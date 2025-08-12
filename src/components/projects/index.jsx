@@ -17,8 +17,13 @@ const Projects = () => {
           <Card.Body>
             <Card.Title>{title}</Card.Title>
             <Card.Text>{desc}</Card.Text>
-            <Button type="link" href={link} target="_blank">
-              { buttonText || "Source Code"}
+            <Button
+              type="link"
+              href={link}
+              target="_blank"
+              onClick={() => window.umami?.trackEvent(`${title} click`)}
+            >
+              {buttonText || "Source Code"}
             </Button>
           </Card.Body>
         </Card>

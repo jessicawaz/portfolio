@@ -26,7 +26,12 @@ const Home = () => {
         <div className={styles.socialIconWrapper}>
           {socialIcons.map(({ icon, title, link }) => (
             <div key={title} className={styles.icon}>
-              <a target="_blank" rel="noreferrer" href={link}>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href={link}
+                onClick={() => window.umami?.trackEvent(`${title} click`)}
+              >
                 {icon}
               </a>
             </div>
